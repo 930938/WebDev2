@@ -1,18 +1,217 @@
 <html lang="en">
-    <!--Version 7.0 
-	Name:
+<!--Version 7.0 
+	Name: Alan
 	Date Completed:
     -->
-    <head>
-        
-        <title>Web Development User #06</title>
-    
+
+<head>
+
+    <title>Banjo page</title>
+
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="SHS WebDev Version 3.0">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="CSS/style.css">
+
+    <!-- JavaScript -->
+    <!-- These are needed to get the responsive menu to work -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="JS/script.js"></script>
+    <link rel="icon" type="image/x-icon" href="images/Banjo.jpeg" />
+    <style>
+        .background {
+            background-image: url(https://www.denofgeek.com/wp-content/uploads/2019/06/banjo_kazooie_switch.jpeg?fit=1200%2C677);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+        }
+
+        #big {
+            color: gold;
+            background-color: blue;
+            text-align: center;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            border: 10px double hotpink;
+            font-size: 8vh;
+        }
+
+        #big strong {
+            padding: 30px;
+        }
+
+        .navbar-nav a {
+            margin-right: 6vw;
+
+        }
+
+        .jumbotron {
+            width: 100% !important;
+            background-color: transparent !important;
+
+        }
+
+        footer {
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            height: 7vh;
+            align-items: center;
+            justify-content: center;
+            display: flex;
+        }
+
+        #flutter {
+            align-items: center;
+            justify-content: center;
+
+            height: 25vh;
+
+        }
+
+        #sat {
+
+            font-family: cursive;
+            font-size: 38px;
+            background-color: grey;
+            color: gold;
+            border-style: groove;
+        }
+
+        #jumbotron {
+            font-size: 25px;
+        }
+
+
+        #BanjoSon {
+            font-size: 25px;
+        }
+
+        #form {
+
+            top: 550px;
+            right: 700px;
+
+        }
+
+        #fname {
+
+            top: 550px;
+            right: 750px;
+        }
+
+        #Submit {
+
+            top: 550px;
+            right: 800px;
+        }
+    </style>
+
+
+</head>
+
+<body class="background">
+
+    <!-------Nav bar----->
+    <Nav class="navbar navbar-expand-md navbar-dark bg-dark">
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ml-auto">
+                <a href="index.html" class="nav-item nav-link active">Home</a>
+                <a href="History.html" class="nav-item nav-link">History</a>
+                <a href="Games.html" class="nav-item nav-link">Games</a>
+                <a href="Culture.html" class="nav-item nav-link">Culture</a>
+
+            </div>
+            <div class="navbar-nav ml-auto">
+
+            </div>
+        </div>
+    </Nav>
+    <!-----End of Nav-->
+
+
+
+
+
+    <div class="jumbotron">
+        <h1 id="BigJumbo">Welcome</h1>
+        <p id="BanjoSon">Banjo is a bear and I love him, he is my son</p>
+    </div>
+
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="center">
+                    <img id="flutter" src="images/flutter.gif">
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-3">
+            </div>
+            <div class="col-sm-6">
+                <div class="center">
+                    <div id="sat">
+                        Welcome to my weird site about a bear
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+    <form id="" onsubmit="confirmInput()" action="https://www.w3schools.com/">
+        Enter your name: <input id="fname" type="text" size="20">
+        <input id="form" type="submit">
+    </form>
+
+    <script>
+        function confirmInput() {
+            fname = document.forms[0].fname.value;
+            alert("Hello " + fname + "! You will now be redirected to www.w3Schools.com");
+        }
+    </script>
     </head>
-    
-    <body>
-        
-        <center>My name is User #06</center>
-    
-    </body>
+
+
+
+
+
+
+    <footer class="wideMargin">
+        <p>
+            <center><a id=big> <strong>
+                        Awww man, Banjo hits the big time!
+                    </strong></a></center>
+        </p>
+    </footer>
+
+</body>
+
+
+
 
 </html>

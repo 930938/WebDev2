@@ -1,0 +1,225 @@
+<html lang="en">
+<!--Version 7.0 
+	Name: Alan
+	Date Completed:
+    -->
+
+    
+<head>
+
+    <title>All the games</title>
+    <!----META-->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="SHS WebDev Version 3.0">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="CSS/style.css">
+
+
+    <!-- JavaScript -->
+    <!-- These are needed to get the responsive menu to work -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="JS/script.js"></script>
+    <link rel="icon" type="image/x-icon" href="images/Banjo.jpeg" />
+    <style>
+        .navbar-nav a {
+            margin-right: 6vw;
+        }
+
+        .Background {
+            background-image: url(https://cdn.statically.io/img/i.pinimg.com/originals/b1/20/0e/b1200e864b641bef08815dd9305330bd.gif);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 100%;
+            background-attachment: fixed;
+        }
+
+
+        .center {
+            margin-left: auto;
+            margin-right: auto;
+            padding-left: auto;
+            padding-right: auto;
+
+        }
+
+        th {
+            border-spacing: 200px;
+            color: gold;
+            padding: 15px;
+        }
+
+        #Title {
+            color: rgb(255, 0, 0);
+        }
+
+        #BigTitle {
+            color: rgb(255, 0, 0);
+
+        }
+
+        #firsttitle {
+            position: absolute;
+            top: 300px;
+            left: 16px;
+
+        }
+
+        tr td {
+            color: gold;
+            text-align: center;
+        }
+
+        #ListTitle {
+            font-size: 25px;
+            background-color: rgb(0, 37, 248);
+
+        }
+
+        ul li {
+            background-color: rgb(0, 37, 248)
+        }
+
+        #village {
+            width: 200px;
+        }
+
+        #nuts {
+            width: 200px;
+        }
+
+        #gg {
+            width: 200px;
+            margin: 15px;
+        }
+
+        #po {
+            width: 200px;
+        }
+
+        #Grunty {
+            margin: 15px;
+        }
+
+        footer {
+            position: absolute;
+            width: 100%;
+            height: 7vh;
+            align-items: center;
+            justify-content: center;
+            display: flex;
+        }
+
+        table {
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+    </style>
+</head>
+
+<body class="background">
+    <!-------Nav bar----->
+    <Nav class="navbar navbar-expand-md navbar-dark bg-dark">
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ml-auto">
+                <a href="index.html" class="nav-item nav-link">Home</a>
+                <a href="History.html" class="nav-item nav-link">History</a>
+                <a href="Games.html" class="nav-item nav-link active">Games</a>
+                <a href="Culture.html" class="nav-item nav-link">Culture</a>
+
+            </div>
+            <div class="navbar-nav ml-auto">
+
+            </div>
+
+        </div>
+
+    </Nav>
+    <!-----End of Nav-->
+
+    <script>
+
+        alert('Merry christmas! Your epic')
+
+    </script>
+
+
+    <main class="wideMargin">
+        <h1 class="text-left my-3" tabindex="0" id="BigTitle">Banjo's History</h1>
+
+        <h2 id="Title">All of Banjo's games/apperances</h2>
+
+        <ul id="firsttitle">
+            <hX id="ListTitle">Banjo teir list</hX>
+            <li>Banjo kazooie</li>
+            <li>Banjo tooie</li>
+            <li>Banjo kazooie nuts and bolts</li>
+            <li>Banjo grunty's revenage</li>
+            <li>Banjo pilot</li>
+        </ul>
+
+        <div class="side-spacing">
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>Game</th>
+                        <th>Year</th>
+                        <th>Game image</th>
+                    </tr>
+                </thead>
+                <tr>
+                    <td>Banjo-Kazooie</td>
+                    <td>June 29, 1998
+                    </td>
+
+                    <td><img src='images/banjo in game.jpeg' style='height:150px;' alt="In game"></td>
+                </tr>
+                <tr>
+                    <td>Banjo tooie</td>
+                    <td> November 20, 2000</td>
+
+                    <td>
+                        <img id="Village" src='images/tooie.jpeg' style='height:150px;' alt="In game sequel">
+                    </td>
+                </tr>
+                <tr>
+                    <td id="Grunty">Banjo-Kazooie: Grunty's Revenge</td>
+                    <td> September 12, 2003</td>
+
+                    <td><img id="gg" src='images/gruny.png' style='height: 150px;' alt="In game Gameboy"></td>
+                </tr>
+                <tr>
+                    <td>Banjo Pilot</td>
+                    <td>January 12, 2005</td>
+                    <td><img id="po" src='images/pillot.jpeg' style='height: 150px;' alt="In game pilot"></td>
+                </tr>
+                <tr>
+                    <td>Banjo kazooie: Nuts and bolts</td>
+                    <td>November 12, 2008</td>
+
+                    <td>
+                        <img id="nuts" src='images/bigban.jpeg' style='height:150px;' alt="Nuts and Bolts Banjo">
+                    </td>
+                </tr>
+
+            </table>
+        </div>
+    </main>
+
+
+</body>
+
+<footer>
+
+</footer>
